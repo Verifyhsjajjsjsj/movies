@@ -21,7 +21,7 @@ BOT_TOKEN = environ.get('BOT_TOKEN', '7960537763:AAF9OrTmSNRDfNLtHM2clxucXhrt7C1
 ADMINS = [int(admin) if id_pattern.search(admin) else admin for admin in environ.get('ADMINS', '6717382350').split()]
 USERNAME = environ.get('USERNAME', "https://t.me/Stylish_Star2") # ADMIN USERNAME
 LOG_CHANNEL = int(environ.get('LOG_CHANNEL', '-1002259872144'))
-MOVIE_GROUP_LINK = environ.get('MOVIE_GROUP_LINK', 'https://t.me/+K2kgCBgaat80YWQ9')
+MOVIE_GROUP_LINK = environ.get('MOVIE_GROUP_LINK', 'https://t.me/Rebel_Backup')
 CHANNELS = [int(ch) if id_pattern.search(ch) else ch for ch in environ.get('CHANNELS', '-1002190681742').split()]
 #---------------------------------------------------------------
 #---------------------------------------------------------------
@@ -42,7 +42,7 @@ MOVIE_UPDATE_CHANNEL = int(environ.get('MOVIE_UPDATE_CHANNEL', '0'))
 SUPPORT_CHAT = environ.get('SUPPORT_CHAT', 'https://t.me/') #Support group link ( make sure bot is admin )
 #---------------------------------------------------------------
 #---------------------------------------------------------------
-IS_VERIFY = is_enabled('IS_VERIFY', True)
+IS_VERIFY = is_enabled('IS_VERIFY', False)
 #---------------------------------------------------------------
 TUTORIAL = environ.get("TUTORIAL", "https://t.me/")
 VERIFY_IMG = environ.get("VERIFY_IMG", "https://graph.org/file/1669ab9af68eaa62c3ca4.jpg")
@@ -72,7 +72,7 @@ START_IMG = (environ.get('START_IMG', 'https://i.ibb.co/qpxpGmC/image.jpg https:
 FORCESUB_IMG = environ.get('FORCESUB_IMG', 'https://i.ibb.co/ZNC1Hnb/ad3f2c88a8f2.jpg')
 REFER_PICS = (environ.get("REFER_PICS", "https://envs.sh/PSI.jpg")).split() 
 PAYPICS = (environ.get('PAYPICS', 'https://envs.sh/_kA.jpg')).split()
-SUBSCRIPTION = (environ.get('SUBSCRIPTION', 'https://graph.org/file/9f3f47c690bbcc67633c2.jpg'))
+SUBSCRIPTION = (environ.get('SUBSCRIPTION', ''))
 REACTIONS = ["👀", "😱", "🔥", "😍", "🎉", "🥰", "😇", "⚡"]
 #---------------------------------------------------------------
 #---------------------------------------------------------------
